@@ -10,8 +10,8 @@ Publicado con **GitHub Pages** en <https://estebanvizca.github.io>.
 ├── index.html              # Versión en inglés (raíz)
 ├── es/index.html           # Versión en español
 ├── assets/
-│   ├── styles.css          # Todo el diseño (claro y oscuro automáticos)
-│   ├── script.js           # Menú móvil y año del pie de página
+│   ├── styles.css          # Diseño: hero oscuro, secciones claras, degradado teal→violeta
+│   ├── script.js           # Menú móvil, animaciones de entrada y contadores
 │   └── Esteban_Vizcaino_CV.pdf
 └── .nojekyll               # Evita el procesamiento de Jekyll en Pages
 ```
@@ -57,7 +57,11 @@ git remote set-url origin git@github.com:estebanvizca/estebanvizca.github.io.git
 - Para añadir un proyecto, copia un bloque `<article class="project">` completo y
   actualiza el índice, las etiquetas, las métricas y el enlace.
 - El diseño está en `assets/styles.css`. Los colores son variables al inicio del
-  archivo y el modo oscuro se activa solo con la preferencia del sistema.
+  archivo. El hero es oscuro y el resto alterna secciones claras; las animaciones
+  se desactivan solas si el sistema pide movimiento reducido.
+- Las animaciones de entrada usan la clase `reveal` y el atributo `style="--delay: 80ms"`
+  para escalonarlas. Los contadores usan `data-count`, `data-prefix`, `data-suffix`
+  y `data-decimals`.
 
 ## Comprobar en local
 
