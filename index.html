@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esteban Vizcaíno — Telecommunications Engineer · Python, Data &amp; ML</title>
+  <meta name="description" content="Telecommunications engineer building measured systems with Python, data and machine learning: local RAG, DSP classification, network QoS and IoT security.">
+  <meta name="author" content="Esteban Vizcaíno">
+  <link rel="canonical" href="https://estebanvizca.github.io/">
+  <link rel="alternate" hreflang="en" href="https://estebanvizca.github.io/">
+  <link rel="alternate" hreflang="es" href="https://estebanvizca.github.io/es/">
+  <link rel="alternate" hreflang="x-default" href="https://estebanvizca.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Esteban Vizcaíno — Telecommunications Engineer">
+  <meta property="og:description" content="Python, data and machine learning applied to networks and embedded systems.">
+  <meta property="og:url" content="https://estebanvizca.github.io/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_EC">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230d6b5f'/><text x='50' y='68' font-family='monospace' font-size='42' fill='white' text-anchor='middle'>EV</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Esteban Vizcaíno",
+    "jobTitle": "Telecommunications Engineer",
+    "email": "mailto:esteban-marc2011@hotmail.com",
+    "url": "https://estebanvizca.github.io/",
+    "address": { "@type": "PostalAddress", "addressLocality": "Ibarra", "addressCountry": "EC" },
+    "sameAs": [
+      "https://github.com/estebanvizca",
+      "https://www.linkedin.com/in/esteban-vizca%C3%ADno-33558420b/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="Esteban Vizcaíno, home">EV<span>.</span></a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#cases">Case studies</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="lang" href="./es/" hreflang="es" lang="es">ES</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Telecommunications Engineer</p>
+        <h1>Esteban<br>Vizcaíno</h1>
+        <p class="lede">I build small, measured systems where networks, data and machine learning meet — and I report the numbers honestly, including when the data is synthetic.</p>
+        <div class="cta-row">
+          <a class="btn btn--primary" href="#work">View selected work <span aria-hidden="true">↓</span></a>
+          <a class="btn" href="./assets/Esteban_Vizcaino_CV.pdf" download>Download CV <span aria-hidden="true">PDF</span></a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Quick facts">
+        <div class="monogram" aria-hidden="true">EV</div>
+        <dl class="facts">
+          <div>
+            <dt>Based in</dt>
+            <dd>Ibarra, Ecuador</dd>
+          </div>
+          <div>
+            <dt>Work mode</dt>
+            <dd>Remote, worldwide</dd>
+          </div>
+          <div>
+            <dt>Open to</dt>
+            <dd>ML, data and Python roles</dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>Spanish (native) · English (B1–B2)</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-label"><span>01</span>Selected work</p>
+          <h2>Five public repositories, built end to end.</h2>
+          <p class="section-note">Each one includes its own evaluation. Projects tagged <em>synthetic data</em> say so in their README, and their numbers describe a simulator, not a production network.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project">
+            <div class="project-top">
+              <span class="project-index">01</span>
+              <ul class="tags">
+                <li>RAG</li>
+                <li>Ollama</li>
+                <li>SQLite</li>
+                <li>Streamlit</li>
+              </ul>
+            </div>
+            <h3><a href="https://github.com/estebanvizca/local-docs-rag-assistant">Local Docs RAG Assistant</a></h3>
+            <p>Ask questions about your own PDFs and manuals and get answers with page-level citations — or an explicit “not enough information”. The full pipeline runs on your machine, with no cloud API.</p>
+            <ul class="metrics">
+              <li><strong>24</strong><span>questions in the held-out evaluation</span></li>
+              <li><strong>Page-level</strong><span>citations enforced on every answer</span></li>
+              <li><strong>0</strong><span>external API calls</span></li>
+            </ul>
+            <a class="project-link" href="https://github.com/estebanvizca/local-docs-rag-assistant">View repository <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="project-index">02</span>
+              <ul class="tags">
+                <li class="is-flag">Synthetic data</li>
+                <li>DSP</li>
+                <li>Random Forest</li>
+              </ul>
+            </div>
+            <h3><a href="https://github.com/estebanvizca/synthetic-iq-modulation-classifier">I/Q Modulation Classifier</a></h3>
+            <p>Classify BPSK, QPSK and 8-PSK signals from raw I/Q samples across SNR levels, using DSP features and leakage-checked splits — no SDR hardware required.</p>
+            <ul class="metrics">
+              <li><strong>0.959</strong><span>test macro-F1</span></li>
+              <li><strong>1.00</strong><span>macro-F1 from +5 dB upward</span></li>
+              <li><strong>44</strong><span>DSP features per window</span></li>
+            </ul>
+            <a class="project-link" href="https://github.com/estebanvizca/synthetic-iq-modulation-classifier">View repository <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="project-index">03</span>
+              <ul class="tags">
+                <li class="is-flag">Synthetic data</li>
+                <li>QoS</li>
+                <li>FastAPI</li>
+              </ul>
+            </div>
+            <h3><a href="https://github.com/estebanvizca/network-qos-classifier">Network QoS Classifier</a></h3>
+            <p>Diagnose a degraded link as high latency, packet loss or high jitter, and show which measurements drove the call. Threshold baseline versus Random Forest, served through a validated API.</p>
+            <ul class="metrics">
+              <li><strong>1.00</strong><span>macro-F1 on grouped test scenarios</span></li>
+              <li><strong>360</strong><span>test windows, unseen scenarios</span></li>
+              <li><strong>4</strong><span>interpretable link metrics</span></li>
+            </ul>
+            <a class="project-link" href="https://github.com/estebanvizca/network-qos-classifier">View repository <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="project-index">04</span>
+              <ul class="tags">
+                <li class="is-flag">Synthetic data</li>
+                <li>NLP</li>
+                <li>TF-IDF</li>
+              </ul>
+            </div>
+            <h3><a href="https://github.com/estebanvizca/technical-ticket-triage">Technical Ticket Triage</a></h3>
+            <p>Route short IT support descriptions to a category and priority, with a confidence gate that sends uncertain cases to a human. Trained and tested on template families the model never saw.</p>
+            <ul class="metrics">
+              <li><strong>0.99</strong><span>category macro-F1</span></li>
+              <li><strong>1.00</strong><span>urgent-ticket recall</span></li>
+              <li><strong>Unseen</strong><span>template families in the test split</span></li>
+            </ul>
+            <a class="project-link" href="https://github.com/estebanvizca/technical-ticket-triage">View repository <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="project-index">05</span>
+              <ul class="tags">
+                <li>Computer vision</li>
+                <li>MediaPipe</li>
+                <li>Pygame</li>
+              </ul>
+            </div>
+            <h3><a href="https://github.com/estebanvizca/hand-gesture-gallery-controller">Hand-Gesture Gallery Controller</a></h3>
+            <p>Control an image gallery from a webcam with three gestures: swipe to navigate, pinch to open details, fist to pause. Temporal confirmation, a cooldown and a keyboard fallback keep false activations down.</p>
+            <ul class="metrics">
+              <li><strong>21</strong><span>hand landmarks per frame</span></li>
+              <li><strong>6 / 8</strong><span>frames required to confirm a gesture</span></li>
+              <li><strong>600 ms</strong><span>cooldown between actions</span></li>
+            </ul>
+            <a class="project-link" href="https://github.com/estebanvizca/hand-gesture-gallery-controller">View repository <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cases">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-label"><span>02</span>Case studies</p>
+          <h2>Work that lives outside a public repository.</h2>
+          <p class="section-note">A thesis, an internal operations system and a coursework model — described by what they changed, not by a feature list.</p>
+        </div>
+
+        <div class="cases">
+          <article class="case">
+            <div class="case-meta">
+              <span>2026</span>
+              <span>Thesis · UTN</span>
+            </div>
+            <div class="case-body">
+              <h3>Adaptive IoT security mechanism</h3>
+              <p>An ESP32 node and an Orange Pi gateway select a lightweight cipher from the device’s live conditions. The decision engine combines fuzzy logic with a neural network running bare metal, so it fits in under 1 KB of RAM.</p>
+              <ul class="metrics">
+                <li><strong>19.41 µs</strong><span>fuzzy inference</span></li>
+                <li><strong>54.57 µs</strong><span>neural-network inference</span></li>
+                <li><strong>&lt; 1 KB</strong><span>RAM footprint</span></li>
+                <li><strong>95%</strong><span>fewer fuzzy rules</span></li>
+              </ul>
+              <a class="text-link" href="https://repositorio.utn.edu.ec/handle/123456789/20155">Read the thesis <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-meta">
+              <span>2026 — Present</span>
+              <span>MANSUERA S.A.</span>
+            </div>
+            <div class="case-body">
+              <h3>Warehouse inventory system</h3>
+              <p>A Flask and PostgreSQL application for roughly 3,000 parts: shelf maps, ghost-location detection, invoice entry and a local Ollama assistant. It replaced a manual stock-check routine that took most of a shift.</p>
+              <ul class="metrics">
+                <li><strong>~3,000</strong><span>parts tracked</span></li>
+                <li><strong>4–5 h → 1–2 h</strong><span>recurring stock check</span></li>
+                <li><strong>Rocky Linux</strong><span>deployed on a VM</span></li>
+                <li><strong>PostgreSQL</strong><span>schema, roles, backups</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-meta">
+              <span>2026</span>
+              <span>Coursework</span>
+            </div>
+            <div class="case-body">
+              <h3>Customer churn prediction</h3>
+              <p>A neural network and an XGBoost classifier compared on telecom churn data, evaluated on a held-out set of 1,409 records and served through FastAPI prediction endpoints.</p>
+              <ul class="metrics">
+                <li><strong>0.860</strong><span>ROC-AUC, neural network</span></li>
+                <li><strong>0.861</strong><span>ROC-AUC, XGBoost</span></li>
+                <li><strong>1,409</strong><span>test records</span></li>
+                <li><strong>FastAPI</strong><span>prediction endpoints</span></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-label"><span>03</span>Experience</p>
+          <h2>Operations, networks and teaching labs.</h2>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <div class="when">2026 — Present</div>
+            <div>
+              <h3>Warehouse Lead</h3>
+              <p class="org">MANSUERA S.A. · Ibarra, Ecuador</p>
+              <p>Run the warehouse and the internal system behind it: PostgreSQL schema, Flask application, roles, backups and automation for stock queries across roughly 3,000 parts.</p>
+            </div>
+          </li>
+          <li>
+            <div class="when">2021 — 2026</div>
+            <div>
+              <h3>Network &amp; Cybersecurity Lab Support</h3>
+              <p class="org">Universidad Técnica del Norte · Student support</p>
+              <p>Prepared Docker-based attack and defence scenarios, deployed lab network infrastructure and troubleshot routing and connectivity issues, often remotely over SSH and VNC.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-label"><span>04</span>Skills</p>
+          <h2>The tools I reach for.</h2>
+        </div>
+
+        <div class="skills">
+          <div class="skill-group">
+            <h3>Languages &amp; data</h3>
+            <p>Python · C++17 · SQL · Bash <span>· pandas, NumPy</span></p>
+          </div>
+          <div class="skill-group">
+            <h3>Machine learning</h3>
+            <p>PyTorch · TensorFlow/Keras · scikit-learn · XGBoost <span>· evaluation and leakage-safe splits</span></p>
+          </div>
+          <div class="skill-group">
+            <h3>Data &amp; backend</h3>
+            <p>PostgreSQL · SQLite · Redis · Apache Airflow · FastAPI · Streamlit · Docker <span>· Flask</span></p>
+          </div>
+          <div class="skill-group">
+            <h3>Networks &amp; systems</h3>
+            <p>TCP/IP · routing and switching · MPLS, BGP, OSPF · MQTT · Wireshark · Linux · ESP32/ESP-IDF <span>· applied cryptography</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="section-label"><span>05</span>Contact</p>
+        <h2>Let’s build something measurable.</h2>
+        <a class="email" href="mailto:esteban-marc2011@hotmail.com">esteban-marc2011@hotmail.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/estebanvizca">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/esteban-vizca%C3%ADno-33558420b/">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="./assets/Esteban_Vizcaino_CV.pdf" download>CV (PDF) <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="contact-note">Based in Ibarra, Ecuador (UTC−5). Available for remote roles and as an independent contractor. I usually reply within one business day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> Esteban Vizcaíno</span>
+      <span>Plain HTML, CSS and GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>
