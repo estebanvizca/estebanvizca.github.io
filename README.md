@@ -12,6 +12,8 @@ Publicado con **GitHub Pages** en <https://estebanvizca.github.io>.
 ├── assets/
 │   ├── styles.css          # Diseño: hero oscuro, secciones claras, degradado teal→violeta
 │   ├── script.js           # Menú móvil, animaciones de entrada y contadores
+│   ├── esteban.webp        # Retrato optimizado (44 KB)
+│   ├── esteban.jpg         # Respaldo del retrato para navegadores antiguos
 │   └── Esteban_Vizcaino_CV.pdf
 └── .nojekyll               # Evita el procesamiento de Jekyll en Pages
 ```
